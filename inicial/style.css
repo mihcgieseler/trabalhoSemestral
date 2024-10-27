@@ -1,69 +1,107 @@
 @import '~mdb-ui-kit/css/mdb.min.css';
 
-#menu{
-    background-color: #f9bfad;
+navbar {
+    box-shadow:
+        -8px -8px 16px rgba(255, 255, 255, 0.5),
+        /* Sombra clara superior esquerda */
+        8px 8px 16px rgba(209, 205, 199, 0.5);
+    /* Sombra escura inferior direita */
+    border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+    /* Borda inferior com 20% de opacidade */
+    background-color: #f4e2e2;
     height: 60px;
     border-bottom: 3%;
 }
 
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.titulo{
+    font-size: 32px;
+    font-weight: 300;
+}
+
 body {
-    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2023/11/gentle-floral-beige-pattern-background-scaled.jpg);
+    background-color: #efeeee;
     background-size: auto;
     font: verdana;
     font-weight: 100;
 }
-body h1{
+
+body h1 {
     font-weight: 100;
 }
-body h4{
+
+body h4 {
     font-weight: 400;
 
 }
-.card-deck{
+
+.card-deck {
     display: flex;
     justify-content: space-around;
 
 }
-.card{
-    border-style: solid;
-    border-color: #f9bcb0;
+
+.card {
+    background-color: #efeeee;
+    box-shadow:
+        -8px -8px 16px rgba(255, 255, 255, 0.5),
+        /* Sombra clara superior esquerda */
+        8px 8px 16px rgba(209, 205, 199, 0.5);
+    /* Sombra escura inferior direita */
+    border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+    /* Borda inferior com 20% de opacidade */
+    /* border-color: #33480e;
     border-width: 5px;
     transition: 1s;
-    cursor: pointer;
+    cursor: pointer;*/
 }
-.card:hover{
+
+.card:hover {
     border: 5px solid;
-    border-color: #FFE6E1;
+    border-color: #33480e;
     transition: 1s;
 }
-.btn{
-    background-color: #f9bcb0;
-    border-color: #f9bcb0;
+
+.btn {
+    background-color: #506133;
+    border-color: #506133;
     transition: 1s;
     color: white;
 }
-.btn:hover{
-    background-color: #FFE6E1;
-    border-color: #FFE6E1;
+
+.btn:hover {
+    background-color: #506133;
+    border-color: #506133;
     transition: 1s;
-    color: #f9bcb0;
+    color: #33480e;
 }
-#titulo{
+
+#titulo {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-#nome{
+
+#nome {
     padding-top: 1%;
     font-size: 130%;
     padding-right: 1%;
 }
+
 .btn:focus {
     outline: none;
-    box-shadow: #f9bfad !important;
-  }
-  footer{
-    background-color: #f9bfad7d;
+    box-shadow: #33480e !important;
+}
+.imagens{
+    max-height: 200px !important;
+}
+
+footer {
+    background-color: #33480e;
     padding: 2px !important;
-  }
+}

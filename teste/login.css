@@ -1,0 +1,45 @@
+
+.loginForm{
+    border-radius: 1rem;
+    padding: 10px;
+}
+.paginaInicial{
+    background-color: #33480e;
+}
+icone{
+    color: #33480e;
+}
+.botaoLogin{
+    border-radius: 1rem;
+    background-color: #33480e;
+}
+.botaoLogin:hover{
+    background-color: #8ec928;
+}
+.carouselItem{
+    border-radius: 1rem;
+}
+.imagemCarousel{
+    border-start-start-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    max-width: 500px;
+    max-height: 600px;
+}
+.divLink{
+    color: #8ec928;
+}
+.linkCadastro{
+    color:#33480e;
+}
+.linkLogin{
+    letter-spacing: 1px;
+}
+.bg{
+    position: absolute;
+    opacity: 0.75;
+    z-index: 1;
+}
+.content{
+    position: relative;
+    z-index: 2;
+}
